@@ -156,8 +156,8 @@ class DoubleLL(Node):
 class Operations(DoubleLL):
     list = DoubleLL()
     while True:
-        print("\n1.ADD at Front       4.REMOVE at Front       7.SEARCH\n2.ADD at End         5.REMOVE at End         8.DISPLAY\n"
-              "3.ADD in Between     6.REMOVE in Between     9.SIZE 0.To EXIT\n")
+        print("\n1.ADD at Front       4.REMOVE at Front       7.SEARCH      0.To EXIT\n2.ADD at End         5.REMOVE at End         8.DISPLAY\n"
+              "3.ADD in Between     6.REMOVE in Between     9.SIZE \n")
 
         try:
             x=int(input ("Select the operation to perform\n"))
